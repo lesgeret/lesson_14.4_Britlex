@@ -1,0 +1,794 @@
+/* < 1600 */
+
+@media screen and (max-width: 1600px) {
+
+    .learn_flex-right {
+        max-width: 50%;
+        width: 100%;
+    }
+
+}
+
+/* < 1338 */
+@media screen and (max-width: 1338px) {
+
+    .container,
+    .grey-line {
+        padding: 0 10px;
+    }
+}
+
+/* 992 */
+@media screen and (max-width: 992px) {
+
+    /* HEADER 992*/
+    .grey-line {
+        width: calc(100%-50%);
+        width: 94%;
+    }
+
+    .header_logo {
+        margin-left: 30px;
+    }
+
+    .header-menu {
+        font-size: 16px;
+    }
+
+    .header-menu-list {
+        margin-right: 20px;
+    }
+
+    header .britlex_button {
+        width: 160px;
+        height: 50px;
+        margin-right: 30px;
+    }
+
+    /* LEARN 992 */
+
+    .learn_flex {
+        margin: 30px 30px 30px;
+    }
+
+    .learn_h1 {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px;
+        max-width: 296px;
+    }
+
+    .learn_image-lamp {
+        margin-left: 0px;
+        transform: scale(0.8, 0.8);
+    }
+
+    .learn_p {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 420px;
+    }
+
+    .section_learn .britlex_button {
+        width: 292px;
+        height: 80px;
+        flex-shrink: 0;
+        font-size: 24px;
+    }
+
+    /* SKILLS 992 */
+
+    .skills_grid {
+        margin: 30px 30px 30px;
+    }
+
+    .h2_skills {
+        font-size: 36px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+
+    .h3_skills {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .p_skills {
+        font-size: 14px;
+    }
+
+    .skills_grid_text-part .britlex_button {
+        width: 196px;
+        height: 57px;
+        font-size: 18px;
+    }
+
+    /* ABOUT US 992 */
+
+    .about-us__flex {
+        margin: 50px 30px 50px;
+    }
+
+    .about-us__flex_left {
+        max-width: 60%;
+    }
+
+    .about__flex_left_numbers {
+        justify-content: space-around;
+    }
+
+    .about_numbers:nth-child(2) {
+        margin-left: 0px;
+    }
+
+    .about_numbers:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    .h2_about-us {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .p_about-us {
+        font-size: 16px;
+    }
+
+    .h2__about_numbers {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .p__about_numbers {
+        font-size: 16px;
+    }
+
+    /* PRICING 992 */
+
+    .pricing__flex {
+        margin: 0 30px;
+    }
+
+    .h2__pricing {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .h3__pricing {
+        font-size: 22px;
+        margin-bottom: 20px;
+        line-height: normal;
+    }
+
+    .p__pricing {
+        font-size: 16px;
+    }
+
+    .button_pricing {
+        width: 205px;
+        height: 45px;
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .pricing__btn_month {
+        font-size: 16px;
+    }
+
+    /* CONTACT 992 */
+
+    .contact__flex {
+        margin: 0 30px 100px;
+    }
+
+    .h2__contact {
+        font-size: 36px;
+    }
+
+    .p__contact {
+        font-size: 16px;
+        padding-top: 0;
+    }
+
+    .contact_boxes {
+        padding-top: 25px;
+        margin-right: 50px;
+    }
+
+    .input_contact {
+        font-size: 14px;
+        max-width: 323px;
+        width: 100%;
+        height: 60px;
+    }
+
+    .contact_boxes .britlex_button {
+        max-width: 193px;
+        width: 100%;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    /* FOOTER 992*/
+    .footer-menu {
+        font-size: 16px;
+        margin-right: 30px;
+    }
+}
+
+/*  880 */
+@media screen and (max-width: 820px) {
+    .pricing_image_div {
+        max-height: 242px;
+    }
+}
+
+/* 767 */
+@media screen and (max-width: 767px) {
+
+    /* HEADER 767*/
+    .burger-menu {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .header-menu,
+    header .britlex_button {
+        display: none;
+    }
+
+    /* LEARN 767 */
+
+    .learn_h1 {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 45px;
+    }
+
+    .learn_p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .section_learn .britlex_button {
+        width: 236px;
+        height: 65px;
+        flex-shrink: 0;
+        font-size: 18px;
+    }
+
+    .learn_image-lamp {
+        margin-left: 0px;
+        transform: scale(0.6, 0.6);
+    }
+
+    /* SKILLS 767 */
+
+    .skills_grid {
+        display: grid;
+        grid-template-areas:
+            "speaking writing "
+            "reading listening";
+        gap: 15px;
+    }
+
+    .skills_grid_item {}
+
+    .skills_grid_img-writing {}
+
+    .skills_grid_img-writing .skills_grid_text-part {
+        /* max-width: fit-content; */
+    }
+
+    .skills_grid_listening {
+        flex-direction: column;
+    }
+
+    .skills_grid_speaking {}
+
+    .skills_grid_speaking .p_skills {
+        margin-bottom: 20px;
+    }
+
+    .skills_grid_writing .p_skills {}
+
+    .skills_grid_listening .p_skills {
+        margin-bottom: 30px;
+    }
+
+    .skills_grid_listening .skills_grid_text-part {
+        justify-content: space-evenly;
+        max-width: 100%;
+    }
+
+    .h2_skills {
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 35px;
+    }
+
+    .h3_skills {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .p_skills {
+        font-size: 13px;
+    }
+
+    .skills_grid_text-part .britlex_button {
+        width: 178px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    /* ABOUT 767 */
+
+    .h2_about-us {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .p_about-us {
+        font-size: 14px;
+    }
+
+    .h2__about_numbers {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .p__about_numbers {
+        font-size: 13px;
+    }
+
+    /* PRICING 767 */
+
+    .h2__pricing {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+
+    .h3__pricing {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: normal;
+    }
+
+    .p__pricing {
+        font-size: 14px;
+    }
+
+    .button_pricing {
+        width: 160px;
+        height: 39px;
+        font-size: 20px;
+        margin-top: 45px;
+    }
+
+    .pricing__btn_month {
+        font-size: 14px;
+    }
+
+    /* CONTACT 767 */
+
+    .h2__contact {
+        font-size: 30px;
+    }
+
+    .p__contact {
+        font-size: 14px;
+        padding-top: 0;
+    }
+
+    .contact_boxes {
+        padding-top: 25px;
+        margin-right: 50px;
+    }
+
+    .input_contact {
+        font-size: 12px;
+        max-width: 323px;
+        width: 100%;
+        height: 60px;
+    }
+
+    .contact_boxes .britlex_button {
+        max-width: 193px;
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    /* FOOTER 767*/
+    .footer-menu {
+        font-size: 13px;
+    }
+}
+
+/* 575 */
+@media screen and (max-width: 575px) {
+
+    /* HEADER 575*/
+    .burger-menu {
+        display: none;
+    }
+
+    .burger-menu-575 {
+        display: block;
+        margin-right: 20px;
+    }
+
+    /* LEARN 575 */
+
+    .learn_flex {
+        flex-direction: column-reverse;
+        margin: 20px 20px 20px;
+    }
+
+    .learn_h1 br,
+    .learn_image-lamp {
+        display: none;
+    }
+
+    .learn_image-bro {
+        margin: 0 auto;
+    }
+
+    .learn_h1 {
+        max-width: 100%;
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .learn_h1,
+    .learn_p,
+    .section_learn .britlex_button {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .learn_p {
+        max-width: 100%;
+    }
+
+    /* SKILLS 575 */
+
+    .skills_grid {
+        display: grid;
+        grid-template-areas:
+            "speaking"
+            "writing"
+            "reading"
+            "listening";
+        gap: 15px;
+    }
+
+    .skills_grid_item {
+        justify-content: start;
+        align-items: center;
+    }
+
+    .skills_grid_text-part {
+        text-align: center;
+    }
+
+    .skills_grid_listening {
+        flex-direction: column;
+    }
+
+    .skills_grid_speaking {}
+
+    .skills_grid_speaking .p_skills {
+        margin-bottom: 20px;
+    }
+
+    .skills_grid_writing .p_skills {
+        /* margin-bottom: 80px; */
+    }
+
+    .skills_grid_listening .p_skills {
+        margin-bottom: 30px;
+    }
+
+    .skills_grid_listening .skills_grid_text-part {
+        justify-content: space-evenly;
+        max-width: 100%;
+    }
+
+    /* skills 575 Шрифты */
+    .h2_skills {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .h3_skills {
+        font-size: 18px;
+    }
+
+    .p_skills {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .skills_grid_text-part .britlex_button {
+        width: 200px;
+        height: 50px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    /* ABOUT 575 */
+
+    .h2_about-us_main {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 50px;
+    }
+
+    .about-us__flex {
+        flex-direction: column-reverse;
+    }
+
+    .about-us__flex_left {
+        max-width: 100%;
+    }
+
+    .about__flex_left_numbers {
+        justify-content: space-around;
+    }
+
+    .h2_about-us {
+        display: none;
+    }
+
+    .p_about-us {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .h2__about_numbers {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .p__about_numbers {
+        font-size: 14px;
+    }
+
+    /* PRCING 575 */
+
+    .pricing__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing__flex_box {
+        max-width: 100%;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .pricing_box_up {
+        text-align: center;
+    }
+
+    .pricing_image_div {
+        max-height: 340px;
+        height: 100%;
+        /* margin: 0 auto; */
+    }
+
+    .pricing__img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .pricing__img2 {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .pricing__img3 {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .h2__pricing {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+    .h3__pricing {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: normal;
+        padding-top: 20px;
+    }
+
+    .p__pricing {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .button_pricing {
+        width: 205px;
+        height: 45px;
+        font-size: 22px;
+        margin-top: 5px;
+    }
+
+    .pricing__btn_month {
+        font-size: 16px;
+    }
+
+    /* CONTACT 575  */
+
+    .h2__contact_main {
+        display: block;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .contact__flex {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .contact__flex_left {
+        margin: 0 auto;
+    }
+
+    .contact__flex_right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact_boxes {
+        justify-content: center;
+    }
+
+    .h2__contact {
+        display: none;
+    }
+
+    .p__contact {
+        font-size: 18px;
+        padding-top: 0;
+    }
+
+    .contact_boxes {
+        padding-top: 25px;
+        margin-right: 0px;
+    }
+
+    .input_contact {
+        font-size: 12px;
+        max-width: 323px;
+        width: 100%;
+        height: 60px;
+        margin-right: 0;
+    }
+
+    .contact_boxes .britlex_button {
+        max-width: 193px;
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    /* FOOTER 575 */
+    .footer .container {
+        flex-direction: column;
+    }
+
+    footer .header_logo {
+        margin: 0 auto 30px;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .footer-menu {
+        font-size: 20px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .footer-menu-list {
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+
+    .footer-menu-list:last-child {
+        margin: 0 auto;
+    }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+
+    /* HEADER 320*/
+
+    /* LEARN 320 */
+    .learn_flex {
+        margin: 20px 10px 20px;
+    }
+
+    /* SKILLS 320 */
+    .skills_grid {
+        display: grid;
+        grid-template-areas:
+            "speaking"
+            "writing"
+            "reading"
+            "listening";
+        gap: 15px;
+    }
+
+    .skills_grid_item {
+        justify-content: start;
+    }
+
+    /* ABOUT 320 */
+
+    .about__flex_left_numbers {
+        flex-direction: column;
+    }
+
+    .about_numbers {
+        margin-bottom: 30px;
+    }
+
+    .h2_about-us_main {
+        font-size: 24px;
+    }
+
+    .p_about-us {
+        font-size: 13px;
+    }
+
+    .h2__about_numbers {
+        font-size: 24px;
+
+    }
+
+    .p__about_numbers {
+        font-size: 15px;
+    }
+
+    /* FOOTER 320*/
+    .footer .container {}
+
+    .footer-menu {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .footer-menu-list {
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+
+    .footer-menu-list:last-child {
+        margin: 0 auto;
+    }
+}

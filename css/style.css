@@ -1,0 +1,614 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+button,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h3 {
+    color: var(--main-grey);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+p {
+    color: #8F95A5;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body {
+    max-width: 1600px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1338px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* переменные цвета */
+:root {
+    --main-grey: #263238;
+    --grey-text: #8F95A5;
+    --accent-grey: #F5F5F5;
+}
+
+.grey-line {
+    max-width: 1338px;
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: var(--grey-text);
+}
+
+.burger-menu-575 {
+    display: block;
+    display: none;
+}
+
+button,
+a,
+span {
+    display: block;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    border-style: none;
+}
+
+/* HEADER */
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px auto 30px;
+}
+
+.header_logo {
+    display: block;
+}
+
+.header-menu {
+    display: flex;
+    color: #263238;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-menu-list {
+    margin-right: 40px;
+}
+
+.header-menu-list:last-child {
+    margin-right: 0;
+}
+
+.header_menu-link {
+    color: var(--main-grey);
+}
+
+.header_menu-link:hover {
+    transform: scale(1.2, 1.2);
+}
+
+header .britlex_button {
+    width: 220px;
+    height: 70px;
+    border-radius: 5px;
+    border: 2px solid #263238;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #fff;
+}
+
+header .britlex_button:hover {
+    background-color: var(--accent-grey);
+}
+
+.burger-menu {
+    display: none;
+}
+
+/* LEARN */
+
+.section_learn {}
+
+.learn_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.learn_flex-left {
+    max-width: 614px;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.learn_flex-left_upper {
+    display: flex;
+    align-items: center;
+}
+
+.learn_h1 {
+    max-width: 390px;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+.learn_image-lamp {
+    display: block;
+    margin-left: 50px;
+}
+
+.learn_p {
+    margin-bottom: 40px;
+    max-width: 530px;
+}
+
+.section_learn .britlex_button,
+.black_button {
+    width: 438px;
+    height: 118px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #263238;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black_button:hover {
+    background-color: #40484d;
+}
+
+.learn_flex-right {
+    /* margin: 0 auto; */
+}
+
+.learn_image-bro {
+    display: block;
+    /* max-width: 100%; */
+    width: 100%;
+}
+
+/* SKILLS */
+
+.section_skills {}
+
+.h2_skills {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.skills_grid {
+    display: grid;
+    grid-template-areas:
+        "speaking writing reading"
+        "speaking listening listening";
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-bottom: 50px;
+}
+
+.skills_grid_item {
+    background-color: var(--accent-grey);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills_grid_speaking {
+    grid-area: speaking;
+}
+
+.skills_grid_writing {
+    grid-area: writing;
+}
+
+.skills_grid_reading {
+    grid-area: reading;
+}
+
+.skills_grid_listening {
+    grid-area: listening;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/* skills image sizes */
+.skills_grid_img-part img {
+    max-width: 100%;
+}
+
+.skills_grid_speaking .skills_grid_text-part {
+    height: 50%;
+    justify-content: space-around;
+}
+
+.skills_grid_img-writing {
+    display: block;
+    /* margin-right: auto; */
+    margin-left: auto;
+    max-height: 247px;
+}
+
+/* текстовая часть */
+.skills_grid_text-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_grid_listening .skills_grid_text-part {
+    /* max-width: 390px; */
+    justify-content: space-evenly;
+    max-width: 50%;
+}
+
+.skills_grid_listening .skills_grid_img-part {
+    width: 100%;
+}
+
+.h3_skills {}
+
+.p_skills {
+    color: var(--grey-text);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skills_grid_writing .p_skills {
+    margin-bottom: 30px;
+}
+
+.skills_grid_reading .p_skills {
+    margin-bottom: 30px;
+}
+
+.skills_grid_listening .p_skills {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.skills_grid_listening .skills_grid_text-part {}
+
+.skills_grid_text-part .britlex_button {
+    width: 218px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* ABOUT US */
+
+
+.section_about-us {}
+
+.h2_about-us_main {
+    display: none;
+}
+
+.about-us__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.about-us__flex_left {
+    max-width: 50%;
+}
+
+.h2_about-us {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
+
+.p_about-us {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.about__flex_left_numbers {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.about_numbers {}
+
+.about_numbers:nth-child(2) {
+    margin-left: 80px;
+}
+
+.about_numbers:nth-child(3) {
+    margin-right: 50px;
+}
+
+.h2__about_numbers {
+    font-size: 48px;
+}
+
+.p__about_numbers {
+    font-size: 20px;
+}
+
+.about-us__flex_right {}
+
+.about-us_bro {
+    /* width: 100%; */
+    /* min-width: 100%; */
+    max-width: 100%;
+}
+
+/* PRICING */
+
+.section__pricing {}
+
+.h2__pricing {
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 80px;
+}
+
+.pricing__flex {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.pricing__flex_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 33%;
+    width: 100%;
+}
+
+.pricing_image_div {
+    max-height: 311px;
+    height: 100%;
+}
+
+.pricing__img {
+    max-width: 100%;
+}
+
+.pricing__img2 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.pricing__img3 {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.h3__pricing {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.p__pricing {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.button_pricing {
+    width: 240px;
+    height: 45px;
+    border-radius: 5px;
+    background: #EEE;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+}
+
+.button_pricing:hover {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    ;
+}
+
+.pricing__btn_month {
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* CONTACT */
+
+.section__contact {}
+
+.h2__contact_main {
+    display: none;
+    text-align: center;
+}
+
+.contact__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact__flex_left {
+    margin-right: 30px;
+}
+
+.contact_bro {
+    max-width: 477px;
+    max-height: 429px;
+    width: 100%;
+}
+
+.contact__flex_right {
+    max-width: 776px;
+}
+
+.h2__contact {
+    font-size: 48px;
+    line-height: normal;
+}
+
+.p__contact {
+    max-width: 750px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.contact_boxes {
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.input_contact {
+    max-width: 450px;
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #8F95A5;
+    padding-left: 33px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-right: 15px;
+    display: block;
+}
+
+.contact_boxes .britlex_button {
+    display: block;
+    max-width: 264px;
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+/* FOOTER */
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px auto 30px;
+}
+
+.footer-menu {
+    display: flex;
+    color: var(--grey-text);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-menu-list {
+    margin-right: 7px;
+}
+
+.footer-menu-list:last-child {
+    margin-right: 0;
+}
+
+.footer-menu-link {
+    color: var(--grey-text);
+}
